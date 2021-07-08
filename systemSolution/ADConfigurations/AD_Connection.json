@@ -10,12 +10,44 @@
   "Channel": {
     "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
     "Type": "CommunicationChannel",
-    "Alias": "AD_Channel"
+    "Alias": "corp.comindware.com"
   },
   "Template": {
     "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
     "Type": "AccountTemplate",
     "Alias": "TemplateForAD"
+  },
+  "SelectedGroups": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
+        "Alias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Attribute",
+          "Alias": "CN=Group1,OU=OU,DC=corp,DC=comindware,DC=com"
+        },
+        "Name": "Group1"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
+        "Alias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Attribute",
+          "Alias": "CN=Group2,OU=OU,DC=corp,DC=comindware,DC=com"
+        },
+        "Name": "Group2"
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
+        "Alias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Attribute",
+          "Alias": "CN=Group3,OU=OU,DC=corp,DC=comindware,DC=com"
+        },
+        "Name": "Group3"
+      }
+    ]
   },
   "BehaviourState": "Suspend"
 }
