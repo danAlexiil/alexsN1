@@ -1,16 +1,16 @@
 {
   "$type": "Comindware.Platform.Contracts.DocumentExportTemplateModel, Comindware.Platform.Contracts",
+  "Name": "cvnmmcvnbm",
   "GlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "ExportTemplate",
     "Owner": "szaddasf",
     "Alias": "cvnmmcvnbm"
   },
-  "Name": "cvnmmcvnbm",
   "ExportSourceTemplate": {
     "$type": "Comindware.Platform.Contracts.ExportSourceTemplateFromRule, Comindware.Platform.Contracts",
     "Type": "Rule",
-    "Id": "rule.3",
+    "Id": "rule.9",
     "Expression": "$xcvbxcvbvc"
   },
   "OutputFileNameTemplate": {

@@ -17,6 +17,41 @@
     "Type": "AccountTemplate",
     "Alias": "TemplateForAD"
   },
+  "TemplateMap": {
+    "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ADAttributeMapModel, Comindware.Platform.Contracts]], mscorlib",
+    "$values": [
+      {
+        "$type": "Comindware.Platform.Contracts.ADAttributeMapModel, Comindware.Platform.Contracts",
+        "Alias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Property": {
+          "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
+          "Id": "op.9",
+          "Name": "TextName"
+        },
+        "AttributeName": "canonicalName",
+        "AttributeType": "String",
+        "IsMandatory": false
+      },
+      {
+        "$type": "Comindware.Platform.Contracts.ADAttributeMapModel, Comindware.Platform.Contracts",
+        "Alias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined"
+        },
+        "Property": {
+          "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
+          "Id": "op.10",
+          "Name": "TestName1"
+        },
+        "AttributeName": "cn",
+        "AttributeType": "String",
+        "IsMandatory": false
+      }
+    ]
+  },
   "SelectedGroups": {
     "$type": "System.Collections.Generic.List`1[[Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts]], mscorlib",
     "$values": [
