@@ -3,9 +3,9 @@
   "Alias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "ADConfiguration",
-    "Alias": "AD_Connection"
+    "Alias": "AD_Connection2"
   },
-  "Name": "AD_Connection",
+  "Name": "AD_Connection2",
   "Container": "sln.1_ad",
   "Channel": {
     "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
@@ -37,15 +37,6 @@
           "Alias": "CN=Group2,OU=OU,DC=corp,DC=comindware,DC=com"
         },
         "Name": "Group2"
-      },
-      {
-        "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
-        "Alias": {
-          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-          "Type": "Attribute",
-          "Alias": "CN=Group3,OU=OU,DC=corp,DC=comindware,DC=com"
-        },
-        "Name": "Group3"
       }
     ]
   },
