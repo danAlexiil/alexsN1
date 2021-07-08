@@ -22,29 +22,14 @@
     "$values": [
       {
         "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
-        "Alias": {
-          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-          "Type": "Attribute",
-          "Alias": "CN=Group1,OU=OU,DC=corp,DC=comindware,DC=com"
-        },
-        "Name": "Group1"
-      },
-      {
-        "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
-        "Alias": {
-          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-          "Type": "Attribute",
-          "Alias": "CN=Group2,OU=OU,DC=corp,DC=comindware,DC=com"
-        },
+        "Alias": "CN=Group2,OU=OU,DC=corp,DC=comindware,DC=com",
+        "Id": "S-1-5-21-3440071466-1413898663-3586032999-7135",
         "Name": "Group2"
       },
       {
         "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
-        "Alias": {
-          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-          "Type": "Attribute",
-          "Alias": "CN=Group3,OU=OU,DC=corp,DC=comindware,DC=com"
-        },
+        "Alias": "CN=Group3,OU=OU,DC=corp,DC=comindware,DC=com",
+        "Id": "S-1-5-21-3440071466-1413898663-3586032999-7136",
         "Name": "Group3"
       }
     ]

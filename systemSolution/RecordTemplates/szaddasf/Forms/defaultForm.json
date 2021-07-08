@@ -7,23 +7,6 @@
     "Alias": "defaultForm"
   },
   "IsDefault": true,
-  "Root": {
-    "$type": "Comindware.Platform.Contracts.VerticalLayoutModel, Comindware.Platform.Contracts",
-    "GlobalAlias": {
-      "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-      "Type": "FormComponent",
-      "Alias": "default_Root"
-    },
-    "AccessType": "Undefined",
-    "Width": 0,
-    "Type": "VerticalLayout"
-  },
   "Name": "szaddasf - Main Form",
-  "Origination": "Undefined",
-  "Toolbar": {
-    "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
-    "Type": "Toolbar",
-    "Owner": "szaddasf",
-    "Alias": "toolbar6366"
-  }
+  "Origination": "Undefined"
 }

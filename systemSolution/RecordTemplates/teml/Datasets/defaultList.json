@@ -26,7 +26,8 @@
         "Name": "ID",
         "Layout": {
           "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
-          "Flex": 1.0
+          "Flex": 1.0,
+          "Width": 0.0
         },
         "IsHidden": false
       },
@@ -45,7 +46,8 @@
         "Name": "Creator",
         "Layout": {
           "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
-          "Flex": 1.0
+          "Flex": 1.0,
+          "Width": 0.0
         },
         "IsHidden": false
       },
@@ -64,7 +66,8 @@
         "Name": "Creation Date",
         "Layout": {
           "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
-          "Flex": 1.0
+          "Flex": 1.0,
+          "Width": 0.0
         },
         "IsHidden": false
       },
@@ -83,7 +86,8 @@
         "Name": "In archive",
         "Layout": {
           "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
-          "Flex": 1.0
+          "Flex": 1.0,
+          "Width": 0.0
         },
         "IsHidden": false
       },
@@ -102,7 +106,8 @@
         "Name": "Modified Date",
         "Layout": {
           "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
-          "Flex": 1.0
+          "Flex": 1.0,
+          "Width": 0.0
         },
         "IsHidden": false
       },
@@ -122,7 +127,8 @@
         "Name": "Conversation",
         "Layout": {
           "$type": "Comindware.Platform.Contracts.ColumnLayoutModel, Comindware.Platform.Contracts",
-          "Flex": 1.0
+          "Flex": 1.0,
+          "Width": 0.0
         },
         "IsHidden": false
       }

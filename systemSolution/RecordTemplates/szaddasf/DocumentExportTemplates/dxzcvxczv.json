@@ -24,7 +24,7 @@
   "OutputFileNameTemplate": {
     "$type": "Comindware.Platform.Contracts.OutputFileNameTemplateFromRule, Comindware.Platform.Contracts",
     "Type": "Rule",
-    "RuleId": "rule.1",
+    "RuleId": "rule.4",
     "Expression": "$Name"
   },
   "ExportAsPdf": false
