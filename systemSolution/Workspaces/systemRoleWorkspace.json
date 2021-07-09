@@ -1,11 +1,11 @@
 {
   "$type": "Comindware.Platform.Contracts.RoleWorkspaceConfigurationModel, Comindware.Platform.Contracts",
-  "Name": "System workspace",
   "GlobalAlias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "RoleWorkspace",
     "Alias": "systemRoleWorkspace"
   },
+  "Name": "System workspace",
   "IsDefault": true,
   "Description": "System workspace",
   "NavigationItems": {

@@ -28,6 +28,12 @@
         },
         "Property": {
           "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
+          "Alias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Attribute",
+            "Owner": "TemplateForAD",
+            "Alias": "TextName"
+          },
           "Id": "op.9",
           "Name": "TextName"
         },
@@ -43,6 +49,12 @@
         },
         "Property": {
           "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
+          "Alias": {
+            "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+            "Type": "Attribute",
+            "Owner": "TemplateForAD",
+            "Alias": "TestName1"
+          },
           "Id": "op.10",
           "Name": "TestName1"
         },
@@ -57,13 +69,21 @@
     "$values": [
       {
         "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
-        "Alias": "CN=Group1,OU=OU,DC=corp,DC=comindware,DC=com",
+        "Alias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined",
+          "Alias": "CN=Group1,OU=OU,DC=corp,DC=comindware,DC=com"
+        },
         "Id": "S-1-5-21-3440071466-1413898663-3586032999-7134",
         "Name": "Group1"
       },
       {
         "$type": "Comindware.Platform.Contracts.ReferenceModel, Comindware.Platform.Contracts",
-        "Alias": "CN=Group2,OU=OU,DC=corp,DC=comindware,DC=com",
+        "Alias": {
+          "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+          "Type": "Undefined",
+          "Alias": "CN=Group2,OU=OU,DC=corp,DC=comindware,DC=com"
+        },
         "Id": "S-1-5-21-3440071466-1413898663-3586032999-7135",
         "Name": "Group2"
       }
