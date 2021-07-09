@@ -10,7 +10,7 @@
   "ExportSourceTemplate": {
     "$type": "Comindware.Platform.Contracts.ExportSourceTemplateFromRule, Comindware.Platform.Contracts",
     "Type": "Rule",
-    "Id": "rule.9",
+    "Id": "rule.11",
     "Expression": "$xcvbxcvbvc"
   },
   "OutputFileNameTemplate": {

@@ -2,18 +2,18 @@
   "$type": "Comindware.Platform.Contracts.ADConfigurationModel, Comindware.Platform.Contracts",
   "Alias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-    "Type": "ADConfiguration",
+    "Type": "ADConnection",
     "Alias": "AD_Connection2"
   },
   "Name": "AD_Connection2",
   "Container": "sln.1_ad",
   "Channel": {
-    "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "CommunicationChannel",
     "Alias": "dc.corp.comindware.com"
   },
   "Template": {
-    "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "AccountTemplate",
     "Alias": "TemplateForAD"
   },
@@ -32,12 +32,12 @@
             "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
             "Type": "Attribute",
             "Owner": "TemplateForAD",
-            "Alias": "TextName"
+            "Alias": "TestName1"
           },
-          "Id": "op.9",
-          "Name": "TextName"
+          "Id": "op.10",
+          "Name": "TestName1"
         },
-        "AttributeName": "canonicalName",
+        "AttributeName": "cn",
         "AttributeType": "String",
         "IsMandatory": false
       },
@@ -53,12 +53,12 @@
             "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
             "Type": "Attribute",
             "Owner": "TemplateForAD",
-            "Alias": "TestName1"
+            "Alias": "TextName"
           },
-          "Id": "op.10",
-          "Name": "TestName1"
+          "Id": "op.9",
+          "Name": "TextName"
         },
-        "AttributeName": "cn",
+        "AttributeName": "canonicalName",
         "AttributeType": "String",
         "IsMandatory": false
       }
@@ -89,5 +89,5 @@
       }
     ]
   },
-  "BehaviourState": "Suspend"
+  "BehaviourState": "Active"
 }

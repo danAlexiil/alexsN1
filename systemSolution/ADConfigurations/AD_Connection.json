@@ -2,18 +2,18 @@
   "$type": "Comindware.Platform.Contracts.ADConfigurationModel, Comindware.Platform.Contracts",
   "Alias": {
     "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
-    "Type": "ADConfiguration",
+    "Type": "ADConnection",
     "Alias": "AD_Connection"
   },
   "Name": "AD_Connection",
   "Container": "sln.1_ad",
   "Channel": {
-    "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "CommunicationChannel",
     "Alias": "dc.corp.comindware.com"
   },
   "Template": {
-    "$type": "System.Nullable`1[[Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts]], mscorlib",
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
     "Type": "AccountTemplate",
     "Alias": "TemplateForAD"
   },
