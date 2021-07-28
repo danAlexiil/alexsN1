@@ -3,16 +3,16 @@
   "Name": "System business application",
   "Alias": "systemSolution",
   "Description": "System business application",
-  "ExportDate": "2021-07-09T14:40:57.1472365+03:00",
-  "Database": "9bcff9d2-b44f-4c6e-b517-fe93918ba047",
+  "ExportDate": "2021-07-28T13:23:49.7957093+03:00",
+  "Database": "e5016b0d-9d10-4956-9b1f-b4b2621b5f90",
   "Server": "http://localhost/",
   "Version": "3.6.9999.0",
   "ExportStatistics": {
     "$type": "Comindware.Platform.Contracts.TransferStatistics, Comindware.Platform.Contracts",
     "RecordTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",
-      "Found": 2,
-      "Exported": 2
+      "Found": 0,
+      "Exported": 0
     },
     "AccountTemplates": {
       "$type": "Comindware.Platform.Contracts.SuccessRate, Comindware.Platform.Contracts",

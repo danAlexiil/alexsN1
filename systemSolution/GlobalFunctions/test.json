@@ -1,0 +1,47 @@
+{
+  "$type": "Comindware.Platform.Contracts.GlobalFunctionModel, Comindware.Platform.Contracts",
+  "GlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "GlobalFunction",
+    "Alias": "test"
+  },
+  "Name": "test",
+  "InputMessageTypeGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "MessageTemplate",
+    "Alias": "test_input"
+  },
+  "ReturnMessageTypeGlobalAlias": {
+    "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+    "Type": "MessageTemplate",
+    "Alias": "test_output"
+  },
+  "Definition": {
+    "$type": "Comindware.Platform.Contracts.GlobalScriptDefinitionModel, Comindware.Platform.Contracts",
+    "Script": {
+      "$type": "Comindware.Platform.Contracts.CSharpRuleDefinitionModel, Comindware.Platform.Contracts",
+      "EntryPoint": "Script",
+      "Code": "using System;\nusing System.Collections.Generic;\nusing System.Linq;\n\n//class name \"\"Script\"\" and class modifiers (public, static, partial) should remain\npublic static partial class Script\n{\n    //method name must match the global function system name\n    public static Dictionary<string, object> test()\n    {\n        throw new NotImplementedException(\"Function 'test' not implemented!\");\n    }\n} \n            ",
+      "Type": "CSharpExpression"
+    },
+    "InputMapping": {
+      "$type": "Comindware.Platform.Contracts.MakeArrayRuleModel, Comindware.Platform.Contracts",
+      "Item": {
+        "$type": "Comindware.Platform.Contracts.CalculationRuleModel[], Comindware.Platform.Contracts",
+        "$values": []
+      },
+      "Type": "MakeArray"
+    },
+    "ReturnMapping": {
+      "$type": "Comindware.Platform.Contracts.MakeMessageRuleModel, Comindware.Platform.Contracts",
+      "MessageType": {
+        "$type": "Comindware.Platform.Contracts.GlobalAlias, Comindware.Platform.Contracts",
+        "Type": "MessageTemplate",
+        "Alias": "test_output"
+      },
+      "ContextObject": "message",
+      "Type": "MakeMessage"
+    },
+    "Type": "Script"
+  }
+}
